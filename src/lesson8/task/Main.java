@@ -18,6 +18,11 @@ public class Main {
             add("Ali");
         }};
 
+        List<String> list3 = new ArrayList<>() {{
+            add("Yujee");
+            add("Ali");
+        }};
+
         String name = "Akmaljon";
         int age = 23;
         Person person = new Person(name, age);
@@ -26,6 +31,8 @@ public class Main {
             put("Emeley", list);
             put("John", list2);
         }};
+
+
 
         ImmutableClass immutableClass = new ImmutableClass(list, person, map);
 
