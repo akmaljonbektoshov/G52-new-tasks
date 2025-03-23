@@ -35,6 +35,7 @@ public class Main {
 
 
         ImmutableClass immutableClass = new ImmutableClass(list, person, map);
+        ImmutableClass immutableClass2 = new ImmutableClass(list, person, map);
 
         System.out.println(immutableClass);
         person.setAge(30);
