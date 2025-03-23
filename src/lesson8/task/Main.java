@@ -13,6 +13,11 @@ public class Main {
             add("Ali");
         }};
 
+        System.out.println("Akmaljon my detailing zone");
+        if (true) {
+            System.out.println("welcome to my detailing zone");
+        }
+
         List<String> list2 = new ArrayList<>() {{
             add("Yujee");
             add("Ali");
@@ -22,7 +27,7 @@ public class Main {
         int age = 23;
         Person person = new Person(name, age);
 
-        Map<String, List<String>> map = new HashMap<>(){{
+        Map<String, List<String>> map = new HashMap<>() {{
             put("Emeley", list);
             put("John", list2);
         }};
