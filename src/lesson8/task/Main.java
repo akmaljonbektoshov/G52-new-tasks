@@ -13,11 +13,6 @@ public class Main {
             add("Ali");
         }};
 
-        System.out.println("Akmaljon my detailing zone");
-        if (true) {
-            System.out.println("welcome to my detailing zone");
-        }
-
         List<String> list2 = new ArrayList<>() {{
             add("Yujee");
             add("Ali");
